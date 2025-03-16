@@ -1,0 +1,195 @@
+:root {
+    --bg-color: #696a72;
+    --nav-color: #4287f5;
+    --font-color: #460d3a;
+    --game-link-color: #120c33;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: var(--nav-color);
+}
+
+.logo {
+    position: relative;
+    left: 37vw
+}
+
+nav ul {
+    display: flex;
+}
+
+.u-a a {
+    text-decoration: none;
+    padding: 3px;
+    width: 30px;
+}
+
+
+
+nav ul li {
+    position: relative;
+    left: 43vw;
+    list-style-type: none;
+    padding: 10px;
+}
+
+/*Here begin the main area*/
+
+.main-container {
+    background-color: var(--bg-color);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    min-height: 100vh; 
+    padding-top: 35px;
+}
+
+.container {
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.item img {
+    margin-bottom: 5px;
+}
+
+.item a {
+    text-decoration: none;
+    color: var(--game-link-color)
+}
+
+/*here ends the main area*/
+
+/*here is the section */
+
+section {
+    padding-top: 25px;
+}
+
+/*here ends the section*/
+
+/*here begin the footer*/
+
+footer li i {
+    padding: 15px;
+    padding-top: 10px;
+}
+
+/*here ends the footer*/
+
+/*Here begin the form*/
+
+.form {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #5e4caf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4d3c8d;
+}
+
+.form-sign-up {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
